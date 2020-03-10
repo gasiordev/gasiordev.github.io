@@ -2,7 +2,7 @@
 title:          Bits and Ops
 description:    "Miko's blog about devops and programming"
 baseurl:        "/"
-url:            "https://gasior.dev"
+url:            "https://www.gasior.dev"
 
 # Google Analytics
 #google_analytics: UA—XXXXXXXX-X
@@ -10,7 +10,7 @@ url:            "https://gasior.dev"
 # Author
 author:
   name:         Mikolaj Gasior
-  url:          https://gasior.dev
+  url:          https://www.gasior.dev
   email:        nospam@gasior.dev
 
 # Build settings

@@ -1,2 +1,41 @@
-timezone: Etc/UTC
-permalink: /:categories/:year/:month/:day/:title:output_ext
+# Site settings
+title:          gasior.dev
+description:    "Miko's Dev Blog"
+baseurl:        "/"
+url:            "https://gasior.dev"
+
+# Google Analytics
+#google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Mikolaj Gasior
+  url:          https://gasior.dev
+  email:        website@gasior.dev
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale

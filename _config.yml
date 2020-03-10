@@ -1,6 +1,6 @@
 # Site settings
-title:          gasior.dev
-description:    "Miko's Dev Blog"
+title:          Bits and Ops
+description:    "Miko's blog about devops and programming"
 baseurl:        "/"
 url:            "https://gasior.dev"
 
@@ -11,7 +11,7 @@ url:            "https://gasior.dev"
 author:
   name:         Mikolaj Gasior
   url:          https://gasior.dev
-  email:        website@gasior.dev
+  email:        nospam@gasior.dev
 
 # Build settings
 markdown:       kramdown

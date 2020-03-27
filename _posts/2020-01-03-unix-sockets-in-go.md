@@ -4,9 +4,9 @@ title: "Unix sockets in Go"
 author: "Miko"
 ---
 
-In one of the application I had to make use of Unix sockets so I thought it
-could be useful to share a quick working example of how easy it is to code
-a simple server and a client. 
+In one of the applications I worked on recently I had to make use of Unix 
+sockets so I thought it could be useful to share a quick working example of how
+easy it is to code a simple server and a client. 
 
 Check the code below. Socket path in the code is `/tmp/app.sock` - you might
 want to change it in case it does not work. 

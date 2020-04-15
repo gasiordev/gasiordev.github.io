@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unix sockets in Go"
-author: "Miko"
+author: "Mikolaj Gasior"
 ---
 
 In one of the applications I worked on recently I had to make use of Unix 

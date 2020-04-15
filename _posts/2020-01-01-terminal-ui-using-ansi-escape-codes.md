@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Terminal UI using ANSI escape codes"
-author: "Miko"
+author: "Mikolaj Gasior"
 ---
 
 Recently, I was writing a tiny tool for the terminal that would have a very

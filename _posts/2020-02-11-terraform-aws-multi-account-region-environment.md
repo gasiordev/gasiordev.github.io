@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Terraform for multi-account, multi-region, multi-environment infrastructure in AWS"
-author: "Miko"
+author: "Mikolaj Gasior"
 ---
 
 Recently, I was working on tidying up Terraform code for AWS-based

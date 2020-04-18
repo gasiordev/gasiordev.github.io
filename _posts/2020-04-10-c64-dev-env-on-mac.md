@@ -29,10 +29,7 @@ globally available.
 Download latest release source code from 
 [GitHub](https://github.com/irmen/64tass/releases) and unpack it somewhere.
 
-Go the created directory and run `make` to compile the binary. Check if file
-called `64tass` has been created by running `./64tass -V`. If so, copy the
-file to `/usr/local/bin` and make it executable 
-`chmod +x /usr/local/bin/64tass`.
+Go the created directory and run `make && make install`.
 
 ## Makefile
 Go to the directory where you want to work on your project and create the

@@ -6,7 +6,7 @@ author: "Mikolaj Gasior"
 
 To handle key press event in Go CLI application we have to change STTY flags.
 
-By default we have to send new line to get our input send to the terminal. We
+By default we have to press enter to get our input send to the terminal. We
 can change that by running `stty cbreak min 1`.
 Also, we might want to not have our input echoed back. Running `ssty -echo`
 mutes the thing.

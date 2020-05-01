@@ -60,7 +60,7 @@ func main() {
 
 We always have to revert terminal flags to the way they were before running
 application. Command `stty sane` should do the trick. It will fix "broken"
-terminal. Note there are other more apropriate ways to do that.
+terminal. Note that there are other more apropriate ways to do that.
 
 ## Links
 

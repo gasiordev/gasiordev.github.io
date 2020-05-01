@@ -4,7 +4,8 @@ title: "Key press event in Go"
 author: "Mikolaj Gasior"
 ---
 
-To handle key press event in Go CLI application we have to change STTY flags.
+To handle key press event in Go CLI application we have to change options of
+our terminal device interface... or just our TTY we use.
 
 By default we have to press enter to get our input send to the terminal. We
 can change that by running `stty cbreak min 1`.

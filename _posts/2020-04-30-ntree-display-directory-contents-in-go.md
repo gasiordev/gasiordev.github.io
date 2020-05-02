@@ -16,8 +16,8 @@ Check the simple screenshot (in real life I use much bigger terminal window).
 
 ![Sample code](https://raw.githubusercontent.com/gasiordev/ntree/master/ntree.png)
 
-The source code can be found on my [GitHub](https://github.com/gasiordev/ntree).
-I used some of libraries I created earlier: 
+The source code can be found on my [GitHub](https://github.com/gasiordev/ntree) 
+and it uses libraries I created earlier: 
 [go-cli](https://github.com/gasiordev/go-cli) and
 [go-tui](https://github.com/gasiordev/go-tui).
 

@@ -5,12 +5,12 @@ author: "Mikolaj Gasior"
 ---
 
 In last months, Go has become my primary programming language for any scripting
-as well as writing any automation or any small apps that glue different tools.
+or creating apps that "glue" different tools.
 
 One day I sat down to write a tool that could display contents of a directory.
 Something that I could run in a separate pane in tmux and have refreshed
 automatically when I change directory while working on other panes (usually
-terminals). I ended up doing a project called ntree.
+terminals). I ended up doing a tiny program called ntree.
 
 Check the simple screenshot (in real life I use much bigger terminal window).
 

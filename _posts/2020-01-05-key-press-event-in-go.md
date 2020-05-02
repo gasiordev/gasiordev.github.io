@@ -4,13 +4,13 @@ title: "Key press event in Go"
 author: "Mikolaj Gasior"
 ---
 
-To handle key press event in Go in our CLI application we have to change flags
-for the TTY we use. 
+To handle key press event in Go CLI application we have to change options of
+our terminal device interface... or just our TTY we use.
 
-By default we have to press enter (new line) to get our input send. We can
-change that by running `stty cbreak min 1`.
-Also, we might want to not have our input echoed back. Run `ssty -echo` to get
-that set.
+By default we have to press enter to get our input send to the terminal. We
+can change that by running `stty cbreak min 1`.
+Also, we might want to not have our input echoed back. Running `ssty -echo`
+mutes the thing.
 
 ## Sample Go code
 Let's have a look how we can use that in Go code.
@@ -59,12 +59,12 @@ func main() {
 }
 ```
 
-You have to revert your terminal flags to the way they were before running your
-application. You can use `stty sane` command. It will try to fix your "broken"
-terminal (look at the code above again).
+We always have to revert terminal flags to the way they were before running
+application. Command `stty sane` should do the trick. It will fix "broken"
+terminal. Note that there are other more apropriate ways to do that.
 
 ## Links
 
 Check some of the following links for more info:
-* https://www.computerhope.com/unix/ustty.htm(https://www.computerhope.com/unix/ustty.htm)
-* https://dev.to/napicella/linux-terminals-tty-pty-and-shell-192e(https://dev.to/napicella/linux-terminals-tty-pty-and-shell-192e)
+* [https://www.computerhope.com/unix/ustty.htm](https://www.computerhope.com/unix/ustty.htm)
+* [https://dev.to/napicella/linux-terminals-tty-pty-and-shell-192e](https://dev.to/napicella/linux-terminals-tty-pty-and-shell-192e)

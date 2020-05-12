@@ -13,8 +13,9 @@ to work and `build` endpoint returns
 `403 No valid crumb was included in the request`.
 
 There are few ways to fix this and the easiest one is to use a plugin called
-*Strict Crumb Issuer*. After installing it, it has to be chosen as
-*Crumb Issuer* in *Manage Jenkins > Global Settings > CSRF Protection*.
+*Strict Crumb Issuer*.
+
+After installing it, it has to be selected in *Manage Jenkins > Global Settings > CSRF Protection*.
 In the same section, there's a button labelled *Advanced* which shows plugin's
 configuration. Uncheck the *Check the session ID* tickbox.
 

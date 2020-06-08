@@ -6,7 +6,7 @@ author: "Mikolaj Gasior"
 
 With version 0.12 important syntax changes were introduced to Terraform and the following code containing AWS style tags is no longer valid.
 
-```HCL
+```
 tags {
   "gsr:env" = "prod"
   "gsr:name" = "my-instance"

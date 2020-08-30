@@ -96,7 +96,6 @@ enp0s2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 14323  bytes 1105761 (1.1 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
 ```
 
 ```

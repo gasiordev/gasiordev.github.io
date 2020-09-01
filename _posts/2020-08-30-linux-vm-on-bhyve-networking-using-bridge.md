@@ -21,6 +21,8 @@ On the FreeBSD hosts:
 ifconfig tap0 create up
 ifconfig bridge0 create up
 ifconfig bridge0 inet 192.168.30.1
+ifconfig bridge0 addm tap0
+ifconfig bridge0 addm igb0
 ```
 
 To add a NAT rule using PF, edit you pf.conf file (`/etc/pf.conf`?),
